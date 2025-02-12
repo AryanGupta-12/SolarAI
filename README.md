@@ -1,7 +1,19 @@
 # 🌞 SolarAI Chatbot
 
 This project is an **AI-powered chatbot** that provides accurate and insightful information about the **solar industry**, including **solar panel technology, installation processes, maintenance, costs, ROI analysis, and market trends**. The chatbot integrates **LLM (ChatGroq - Mixtral-8x7B)** with **vector search (FAISS)** for better context-aware responses.
+---
+## Table of Contents
+**1.Features**
 
+**2.Installation & Setup**
+
+**3.Code Breakdown (Function-by-Function)**
+
+**4.Example Convesations**
+
+**5.Deployment Guide**
+
+---
 ## 📌 Features
 
 - Extracts solar panels knowledge from a **DOCX file** (manually created from data available on internet)
@@ -150,6 +162,10 @@ demo.launch()
 ## Example Convesations:
 
 ![Image](https://github.com/user-attachments/assets/187c1dcd-907d-4ed9-9f37-743848baf462)
+
+![Image](https://github.com/user-attachments/assets/96329dfb-6fdc-4f78-b405-5ec863de893d)
+
+---
 ## 🚀 Deployment Guide
 
 ### **Option 1: Run Locally**
