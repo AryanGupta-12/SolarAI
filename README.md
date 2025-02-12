@@ -147,7 +147,9 @@ demo.launch()
 🔹 **Purpose:** Creates a **Gradio-powered UI** for user interaction with the chatbot.
 
 ---
+## Example Convesations:
 
+![Image](https://github.com/user-attachments/assets/187c1dcd-907d-4ed9-9f37-743848baf462)
 ## 🚀 Deployment Guide
 
 ### **Option 1: Run Locally**
