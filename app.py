@@ -2,7 +2,6 @@ import faiss
 from sentence_transformers import SentenceTransformer
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_groq import ChatGroq
-import os
 import gradio as gr
 import numpy as np
 import pickle
@@ -12,7 +11,6 @@ index = faiss.read_index("solar_vectors.index")
 with open("chunks.pkl", "rb") as f:
     chunks= pickle.load(f)
 
-os.environ["GROQ_API_KEY"]= "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"
 llm = ChatGroq(model="mixtral-8x7b-32768",temperature=0)
 
 def retrieve_relevant_text(query, top_k=1):
